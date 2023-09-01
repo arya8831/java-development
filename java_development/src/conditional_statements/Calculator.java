@@ -16,20 +16,20 @@ public class Calculator {
 		int b=sc.nextInt();
 		
 		System.out.print("enter choice");
-		String ch= sc.next();
+		char ch= sc.next().charAt(0);
 		
 		switch(ch) {
 		
-		case "+" :
+		case '+' :
 			System.out.println(a+b);
 			break;
-		case "-":
+		case '-':
 			System.out.println(a-b);
 			break;
-		case "/":
+		case '/':
 			System.out.println(a/b);
 			break;
-		case "%":
+		case '%':
 			System.out.println(a%b);
 			break;
 		default:
