@@ -13,7 +13,7 @@ public class Student {
 	}
 	
 	Student(String name1, int age1){
-		//paramiterized constructors
+		//Parameterized constructors
 		this.name=name1;
 		this.age=age1;
 	}

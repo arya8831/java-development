@@ -2,8 +2,12 @@ package ca3;
 
 public class Method_overloading {
 	String name;
-	int age;
+	int age; 
 	
+	Method_overloading(String name ,int age){
+		this.name=name;
+		this.age=age;
+	}
 
 	
 	public void info(String name) {

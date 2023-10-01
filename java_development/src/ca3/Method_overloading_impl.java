@@ -11,7 +11,7 @@ public class Method_overloading_impl {
 		 String name=sc.next();
 		System.out.print("enter age :");
 		 int age=sc.nextInt();
-		 Method_overloading s1= new Method_overloading();
+		 Method_overloading s1= new Method_overloading(name ,age);
 			s1.name=name;
 			s1.age=age;
 			//s1.info(name , age);
